@@ -998,13 +998,16 @@ function createMap(root) {
 
   controls.children[0].addEventListener("click", () => api.setView(mapState.center, mapState.zoom + 1));
   controls.children[1].addEventListener("click", () => api.setView(mapState.center, mapState.zoom - 1));
-  root.addEventListener("mousedown", (event) => {
+  root.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 || event.target.closest(".map-controls, button")) return;
+    root.setPointerCapture?.(event.pointerId);
     mapState.dragging = true;
     mapState.dragStart = { x: event.clientX, y: event.clientY, center: project(mapState.center, mapState.zoom) };
     root.classList.add("dragging");
   });
-  window.addEventListener("mousemove", (event) => {
+  root.addEventListener("pointermove", (event) => {
     if (!mapState.dragging) return;
+    event.preventDefault();
     const deltaX = event.clientX - mapState.dragStart.x;
     const deltaY = event.clientY - mapState.dragStart.y;
     mapState.center = unproject({
@@ -1014,10 +1017,14 @@ function createMap(root) {
     popup.hidden = true;
     draw();
   });
-  window.addEventListener("mouseup", () => {
+  root.addEventListener("pointerup", endDrag);
+  root.addEventListener("pointercancel", endDrag);
+  window.addEventListener("blur", endDrag);
+  function endDrag(event) {
+    if (event?.pointerId != null) root.releasePointerCapture?.(event.pointerId);
     mapState.dragging = false;
     root.classList.remove("dragging");
-  });
+  }
   root.addEventListener("wheel", (event) => {
     event.preventDefault();
     api.setView(mapState.center, mapState.zoom + (event.deltaY < 0 ? 1 : -1));

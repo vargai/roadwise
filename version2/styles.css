@@ -540,6 +540,8 @@ select {
   min-height: 560px;
   background: #dbe6e1;
   cursor: grab;
+  touch-action: none;
+  user-select: none;
 }
 
 #map.dragging {
