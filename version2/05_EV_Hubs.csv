@@ -1,12 +1,12 @@
-﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
-EV Hubs,All,1,Bergen EV Hub,"Bergen, Norway",EV / Services,Recommended,,,Start full before leaving Bergen.
-EV Hubs,Day 1 or 7,2,Voss EV Hub,"Voss, Norway",EV / Services,Recommended,,,Useful stop both outbound and before airport return.
-EV Hubs,Day 1-2,3,Aurland EV Hub,"Aurland, Norway",EV / Services,Useful,,,Check charger availability near lodging.
-EV Hubs,Day 1-2,4,Flam EV Hub,"Flam, Norway",EV / Services,Useful,,,Popular tourist area; chargers may be busy in July.
-EV Hubs,Day 4 or 7,5,Sogndal EV Hub,"Sogndal, Norway",EV / Services,Recommended,,,"Good services, groceries and charging on transfer days."
-EV Hubs,Day 4 or 7,6,Skei EV Hub,"Skei, Norway",EV / Services,Useful,,,Useful before/after Nordfjord area.
-EV Hubs,Day 4-7,7,Stryn EV Hub,"Stryn, Norway",EV / Services,Recommended,,,Best practical charging/grocery base for Stryn and Geiranger days.
-EV Hubs,Day 5-6,8,Loen EV Hub,"Loen, Norway",EV / Services,Useful,,,Check charger availability; avoid relying on one charger only.
-EV Hubs,Day 5,9,Geiranger EV Hub,"Geiranger, Norway",EV / Services,Backup only,,,Small tourist village; do not make this your only planned charge in July.
-EV Hubs,Day 7 Return via Vikafjell,10,Vik EV Hub,"Vik i Sogn, Norway",EV / Services,Backup,,,Backup only; plan main Day 7 charging in Sogndal or Voss.
-EV Hubs,Day 8,11,Bergen Airport EV Hub,"Bergen Airport, Flesland, Bergen, Norway",EV / Services,Safest,,,Useful when returning rental with required charge level.
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes,Description_HU,Tip_HU
+EV Hubs,All,1,Bergen EV Hub,"Bergen, Norway",EV / Services,Recommended,,,Start full before leaving Bergen.,Kiinduló töltési pont Bergenben.,Hosszabb út előtt induljatok magas töltöttséggel.
+EV Hubs,Day 1 or 7,2,Voss EV Hub,"Voss, Norway",EV / Services,Recommended,,,Useful stop both outbound and before airport return.,Két irányban is hasznos töltő- és szolgáltatási pont.,"Ha bizonytalan a hatótáv, itt érdemes rátölteni."
+EV Hubs,Day 1-2,3,Aurland EV Hub,"Aurland, Norway",EV / Services,Useful,,,Check charger availability near lodging.,Helyi töltési lehetőség Aurland környékén.,"Ne erre legyen az egyetlen terv, ellenőrizzétek a foglaltságot."
+EV Hubs,Day 1-2,4,Flam EV Hub,"Flam, Norway",EV / Services,Useful,,,Popular tourist area; chargers may be busy in July.,Turistás térség töltőkkel és szolgáltatásokkal.,"Főszezonban zsúfolt lehet, legyen alternatíva."
+EV Hubs,Day 4 or 7,5,Sogndal EV Hub,"Sogndal, Norway",EV / Services,Recommended,,,"Good services, groceries and charging on transfer days.",Az egyik legjobb fő töltési pont transzfernapokra.,Ebéd és bolt mellé jól időzíthető.
+EV Hubs,Day 4 or 7,6,Skei EV Hub,"Skei, Norway",EV / Services,Useful,,,Useful before/after Nordfjord area.,Hasznos tartalék töltési és pihenőpont.,A Stryn - Sogndal szakaszon adhat biztonsági tartalékot.
+EV Hubs,Day 4-7,7,Stryn EV Hub,"Stryn, Norway",EV / Services,Recommended,,,Best practical charging/grocery base for Stryn and Geiranger days.,Praktikus töltőbázis a Nordfjord/Geiranger napokhoz.,Hosszú Geiranger-nap előtt különösen fontos.
+EV Hubs,Day 5-6,8,Loen EV Hub,"Loen, Norway",EV / Services,Useful,,,Check charger availability; avoid relying on one charger only.,Helyi töltési lehetőség Loen környékén.,Ne számítsatok egyetlen töltőre; legyen Stryn alternatíva.
+EV Hubs,Day 5,9,Geiranger EV Hub,"Geiranger, Norway",EV / Services,Backup only,,,Small tourist village; do not make this your only planned charge in July.,Kis falusi/turisztikai töltési lehetőség.,"Backupként kezeld, ne fő töltési tervként."
+EV Hubs,Day 7 Return via Vikafjell,10,Vik EV Hub,"Vik i Sogn, Norway",EV / Services,Backup,,,Backup only; plan main Day 7 charging in Sogndal or Voss.,Tartalék töltési pont a scenic visszaúton.,A fő töltést inkább Sogndalban vagy Vossban tervezzétek.
+EV Hubs,Day 8,11,Bergen Airport EV Hub,"Bergen Airport, Flesland, Bergen, Norway",EV / Services,Safest,,,Useful when returning rental with required charge level.,Repülőtéri töltési lehetőség autóleadás előtt.,Ellenőrizd a bérlés feltételeit: milyen töltöttséggel kell visszaadni az autót.

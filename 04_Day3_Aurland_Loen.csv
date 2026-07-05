@@ -1,7 +1,7 @@
-Order,Name,Address
-1,Aurland,"Aurland, Norway"
-2,Laerdal,"Laerdal, Norway"
-3,Fodnes Ferry,"Fodnes ferjekai, Norway"
-4,Sogndal,"Sogndal, Norway"
-5,Boyabreen,"Boyabreen Glacier, Norway"
-6,Loen,"Loen, Norway"
+﻿Order,Name,Address,Description_HU,Tip_HU
+1,Aurland,"Aurland, Norway","Csendesebb fjordbázis Flam közelében, jó kiindulópont Aurlandsfjordhoz és Stegasteinhez.","Tartsátok rugalmasan: séta, fotó, étkezés vagy töltés is beleférhet."
+2,Laerdal,"Laerdal, Norway","A Sognefjord térségének praktikus átmeneti pontja, innen indul a Stryn felé vezető transzfer.",Indulás előtt legyen tiszta a komp- és töltési terv.
+3,Fodnes Ferry,"Fodnes ferjekai, Norway",Kompátkelés a Laerdalsoyri - Sogndal - Stryn útvonalon.,A várakozást kalkuláld bele; ne az utolsó percre időzíts fontos programot utána.
+4,Sogndal,"Sogndal, Norway",Jó szolgáltatási és töltési bázis a hosszabb transzfernapokon.,"Ebéd, bevásárlás és fő EV-töltés szempontból az egyik legpraktikusabb megálló."
+5,Boyabreen,"Boyabreen Glacier, Norway",Könnyen elérhető gleccsernéző pont Fjaerland környékén.,"Rövid, látványos megálló; ne csináljatok belőle hosszú túrát a transzfernapon."
+6,Loen,"Loen, Norway",Látványos fjord- és hegyvidéki település Stryn közelében.,"Jó időben erős panorámapontok vannak a környéken, rossz időben inkább alacsonyabb útvonalat válasszatok."

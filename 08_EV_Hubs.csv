@@ -1,9 +1,9 @@
-Name,Address
-Bergen Charging Hub,"Bergen, Norway"
-Voss Charging Hub,"Voss, Norway"
-Flam Charging Hub,"Flam, Norway"
-Aurland Charging Hub,"Aurland, Norway"
-Sogndal Charging Hub,"Sogndal, Norway"
-Stryn Charging Hub,"Stryn, Norway"
-Loen Charging Hub,"Loen, Norway"
-Geiranger Charging Hub,"Geiranger, Norway"
+﻿Name,Address,Description_HU,Tip_HU
+Bergen Charging Hub,"Bergen, Norway",Kiinduló töltési pont Bergenben.,Hosszabb út előtt induljatok magas töltöttséggel.
+Voss Charging Hub,"Voss, Norway",Két irányban is hasznos töltő- és szolgáltatási pont.,"Ha bizonytalan a hatótáv, itt érdemes rátölteni."
+Flam Charging Hub,"Flam, Norway",Turistás térség töltőkkel és szolgáltatásokkal.,"Főszezonban zsúfolt lehet, legyen alternatíva."
+Aurland Charging Hub,"Aurland, Norway",Helyi töltési lehetőség Aurland környékén.,"Ne erre legyen az egyetlen terv, ellenőrizzétek a foglaltságot."
+Sogndal Charging Hub,"Sogndal, Norway",Az egyik legjobb fő töltési pont transzfernapokra.,Ebéd és bolt mellé jól időzíthető.
+Stryn Charging Hub,"Stryn, Norway",Praktikus töltőbázis a Nordfjord/Geiranger napokhoz.,Hosszú Geiranger-nap előtt különösen fontos.
+Loen Charging Hub,"Loen, Norway",Helyi töltési lehetőség Loen környékén.,Ne számítsatok egyetlen töltőre; legyen Stryn alternatíva.
+Geiranger Charging Hub,"Geiranger, Norway",Kis falusi/turisztikai töltési lehetőség.,"Backupként kezeld, ne fő töltési tervként."

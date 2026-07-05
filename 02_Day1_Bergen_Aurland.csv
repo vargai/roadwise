@@ -1,6 +1,6 @@
-Order,Name,Address
-1,Bergen,"Bergen, Norway"
-2,Voss,"Voss, Norway"
-3,Tvindefossen,"Tvindefossen, Norway"
-4,Gudvangen,"Gudvangen, Norway"
-5,Aurland,"Aurland, Norway"
+﻿Order,Name,Address,Description_HU,Tip_HU
+1,Bergen,"Bergen, Norway","Nyugat-Norvégia kapuja, esős, hangulatos kikötőváros hegyekkel és régi faházas részekkel.","Ha marad energiátok, rövid esti séta és vacsora elég; a hosszú út másnap kezdődik."
+2,Voss,"Voss, Norway","Praktikus hegyi-völgyi megálló Bergen és a fjordvidék között, szolgáltatásokkal és töltési lehetőséggel.","Kávé, mosdó, gyors bevásárlás vagy EV-töltés miatt érdemes betervezni."
+3,Tvindefossen,"Tvindefossen, Norway","Könnyen elérhető vízesés az út mellett, jó rövid fotómegálló.","Ne nyújtsátok hosszúra, ha a Laerdalsoyri felé tartó nap késésben van."
+4,Gudvangen,"Gudvangen, Norway","Fjordparti település a Naeroyfjord környékén, látványos, de nyáron forgalmas.","Rövid panorámaszünetnek jó, hosszabb programra csak akkor, ha bőven van idő."
+5,Aurland,"Aurland, Norway","Csendesebb fjordbázis Flam közelében, jó kiindulópont Aurlandsfjordhoz és Stegasteinhez.","Tartsátok rugalmasan: séta, fotó, étkezés vagy töltés is beleférhet."

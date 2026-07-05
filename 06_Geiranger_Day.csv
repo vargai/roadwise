@@ -1,9 +1,9 @@
-Order,Name,Address
-1,Loen,"Loen, Norway"
-2,Djupvatnet,"Djupvatnet, Norway"
-3,Flydalsjuvet,"Flydalsjuvet, Norway"
-4,Dalsnibba,"Dalsnibba, Norway"
-5,Geiranger,"Geiranger, Norway"
-6,Geiranger Ferry,"Geiranger ferjekai, Norway"
-7,Hellesylt,"Hellesylt, Norway"
-8,Skei,"Skei, Norway"
+﻿Order,Name,Address,Description_HU,Tip_HU
+1,Loen,"Loen, Norway",Látványos fjord- és hegyvidéki település Stryn közelében.,"Jó időben erős panorámapontok vannak a környéken, rossz időben inkább alacsonyabb útvonalat válasszatok."
+2,Djupvatnet,"Djupvatnet, Norway","Magashegyi tó Geiranger felé, gyors és látványos időjárásfüggő megálló.","Ha ködös vagy nagyon hideg-szeles, elég pár fotó, majd tovább."
+3,Flydalsjuvet,"Flydalsjuvet, Norway","Klasszikus Geiranger-kilátópont, rövid megállóval nagy látvánnyal.","Jó fotópont, de parkolásra és buszokra számítsatok júliusban."
+4,Dalsnibba,"Dalsnibba, Norway","Magashegyi, fizetős kilátóút Geiranger felett, tiszta időben nagyon erős panorámával.","Ködben, alacsony felhőben vagy szoros időterv mellett hagyjátok ki."
+5,Geiranger,"Geiranger, Norway","Ikonikus fjordfalu, nagyon látványos, de főszezonban zsúfolt.",Legyen rövid falumegálló; a fő érték a kilátópontok és a Geiranger - Hellesylt komp.
+6,Geiranger Ferry,"Geiranger ferjekai, Norway","Kb. 65 perces fjordkomp, önmagában is látványprogram.","A járműves helyet ellenőrizzétek előre; rossz időben is szép, de késésre legyen tartalék."
+7,Hellesylt,"Hellesylt, Norway","A Geiranger-komp érkezési oldala, innen Stryn felé lehet visszafordulni.","Érkezés után ne tervezzetek túl sok plusz megállót, ez már hosszú nap."
+8,Skei,"Skei, Norway",Hasznos pihenő- és töltési pont Stryn és Sogndal között.,"Jó hely rövid szünetre, mielőtt a hosszú visszaút sűrűbb részei jönnek."

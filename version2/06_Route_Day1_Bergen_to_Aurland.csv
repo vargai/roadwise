@@ -1,4 +1,4 @@
-Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
-Route Day 1 Bergen Arrival,Day 1,1,Bergen Airport,"Bergen Airport, Flesland, Bergen, Norway",Arrival / Car Pickup,Must,0,Arrival,Pick up rental car and sort first groceries if needed.
-Route Day 1 Bergen Arrival,Day 1,2,Wergeland Cozy Apartment,"Lobergsveien 86, 5073 Bergen, Norway",Accommodation,Must,15-25,25-45 min depending traffic,Confirmed Night 1; check-in Jul 6 15:00-23:00.
-Route Day 1 Bergen Arrival,Day 1,3,Bergen,"Bergen, Norway",City Stop,Optional,,Flexible,Optional evening walk/food if arrival energy allows.
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes,Description_HU,Tip_HU
+Route Day 1 Bergen Arrival,Day 1,1,Bergen Airport,"Bergen Airport, Flesland, Bergen, Norway",Arrival / Car Pickup,Must,0,Arrival,Pick up rental car and sort first groceries if needed.,"Bergen repülőtere, a túra autós kezdő- és zárópontja.","Számolj időt az autófelvételre, csomagokra, első bevásárlásra és a végén a töltöttségi elvárásra."
+Route Day 1 Bergen Arrival,Day 1,2,Wergeland Cozy Apartment,"Lobergsveien 86, 5073 Bergen, Norway",Accommodation,Must,15-25,25-45 min depending traffic,Confirmed Night 1; check-in Jul 6 15:00-23:00.,"Első éjszakai szállás Bergenben, jó pihenőpont az érkezés után.",Érkezéskor jegyezd fel a parkolást és készíts képernyőképet a bejutási információkról.
+Route Day 1 Bergen Arrival,Day 1,3,Bergen,"Bergen, Norway",City Stop,Optional,,Flexible,Optional evening walk/food if arrival energy allows.,"Nyugat-Norvégia kapuja, esős, hangulatos kikötőváros hegyekkel és régi faházas részekkel.","Ha marad energiátok, rövid esti séta és vacsora elég; a hosszú út másnap kezdődik."

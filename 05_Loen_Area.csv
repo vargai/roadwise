@@ -1,7 +1,7 @@
-Name,Address,Priority
-Lovatnet,"Lovatnet, Norway",Must
-Briksdal Glacier,"Briksdal Glacier, Norway",Recommended
-Loen Skylift,"Loen Skylift, Norway",Optional
-Olden,"Olden, Norway",Must
-Stryn,"Stryn, Norway",Must
-Loen,"Loen, Norway",Must
+﻿Name,Address,Priority,Description_HU,Tip_HU
+Lovatnet,"Lovatnet, Norway",Must,"Türkiz tó meredek hegyek között, az egyik legszebb, mégis alacsony stresszű program.","Ideális pihenősebb napra. Esőben is hangulatos, de óvatosan vezessetek a keskenyebb részeken."
+Briksdal Glacier,"Briksdal Glacier, Norway",Recommended,"Rövid túrával elérhető gleccserkörnyék, klasszikus Nordfjord-program.","Akkor legyen a nap fő aktív programja, ha az időjárás és az energiaszint is jó."
+Loen Skylift,"Loen Skylift, Norway",Optional,Felvonó magas panorámára Loen felett.,Csak tiszta időben éri meg igazán; felhőben inkább Lovatnet vagy alacsonyabb scenic drive.
+Olden,"Olden, Norway",Must,"Fjordparti település Loen és Briksdal közelében, jó rövid átmeneti megálló.","Étkezésre vagy rövid sétára jó, de ne vigye el a gleccseres nap fókuszát."
+Stryn,"Stryn, Norway",Must,"Praktikus bázis település a Nordfjord környékén, szolgáltatásokkal.","Tankolás/töltés, bolt és időjárás-újratervezés miatt hasznos."
+Loen,"Loen, Norway",Must,Látványos fjord- és hegyvidéki település Stryn közelében.,"Jó időben erős panorámapontok vannak a környéken, rossz időben inkább alacsonyabb útvonalat válasszatok."

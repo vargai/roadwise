@@ -505,6 +505,26 @@ select {
   line-height: 1.35;
 }
 
+.stop-details-hu {
+  display: grid;
+  gap: 5px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 0.85rem;
+  line-height: 1.38;
+}
+
+.stop-details-hu p {
+  margin: 0;
+}
+
+.stop-details-hu span {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .stop-actions {
   justify-content: flex-end;
   gap: 5px;
@@ -903,6 +923,10 @@ select {
   }
 
   .stop-note {
+    font-size: 0.82rem;
+  }
+
+  .stop-details-hu {
     font-size: 0.82rem;
   }
 }

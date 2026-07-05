@@ -365,6 +365,17 @@ def route_files():
 def normalize_stop(name):
     aliases = {
         "Bergen Airport, Flesland, Bergen, Norway": "Bergen Airport",
+        "Stegastein": "Stegastein Viewpoint",
+        "Geiranger Ferry": "Geiranger-Hellesylt Ferry",
+        "Hellesylt": "Hellesylt Ferry Arrival",
+        "Bergen Charging Hub": "Bergen EV Hub",
+        "Voss Charging Hub": "Voss EV Hub",
+        "Flam Charging Hub": "Flam EV Hub",
+        "Aurland Charging Hub": "Aurland EV Hub",
+        "Sogndal Charging Hub": "Sogndal EV Hub",
+        "Stryn Charging Hub": "Stryn EV Hub",
+        "Loen Charging Hub": "Loen EV Hub",
+        "Geiranger Charging Hub": "Geiranger EV Hub",
     }
     return aliases.get(name, name)
 

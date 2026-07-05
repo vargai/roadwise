@@ -61,6 +61,69 @@ const PLACE_LIBRARY = [
   { id: "otthon-vaksdal", name: "Otthon, Vaksdal kommune", coords: [60.4764, 5.7404], type: "overnight", tags: ["sleep", "confirmed"], note: "Confirmed final-night accommodation at Tveitane 43." },
 ];
 
+const STOP_DETAILS_HU = {
+  "Bergen Airport": { description: "Bergen repülőtere, a túra autós kezdő- és zárópontja.", tip: "Számolj időt az autófelvételre, csomagokra, első bevásárlásra és a végén a töltöttségi elvárásra." },
+  "Bergen Airport EV Hub": { description: "Repülőtéri töltési lehetőség autóleadás előtt.", tip: "Ellenőrizd a bérlés feltételeit: milyen töltöttséggel kell visszaadni az autót." },
+  "Bergen": { description: "Nyugat-Norvégia kapuja, esős, hangulatos kikötőváros hegyekkel és régi faházas részekkel.", tip: "Ha marad energiátok, rövid esti séta és vacsora elég; a hosszú út másnap kezdődik." },
+  "Bergen EV Hub": { description: "Kiinduló töltési pont Bergenben.", tip: "Hosszabb út előtt induljatok magas töltöttséggel." },
+  "Wergeland Cozy Apartment": { description: "Első éjszakai szállás Bergenben, jó pihenőpont az érkezés után.", tip: "Érkezéskor jegyezd fel a parkolást és készíts képernyőképet a bejutási információkról." },
+  "Voss": { description: "Praktikus hegyi-völgyi megálló Bergen és a fjordvidék között, szolgáltatásokkal és töltési lehetőséggel.", tip: "Kávé, mosdó, gyors bevásárlás vagy EV-töltés miatt érdemes betervezni." },
+  "Voss EV Hub": { description: "Két irányban is hasznos töltő- és szolgáltatási pont.", tip: "Ha bizonytalan a hatótáv, itt érdemes rátölteni." },
+  "Tvindefossen": { description: "Könnyen elérhető vízesés az út mellett, jó rövid fotómegálló.", tip: "Ne nyújtsátok hosszúra, ha a Laerdalsoyri felé tartó nap késésben van." },
+  "Gudvangen": { description: "Fjordparti település a Naeroyfjord környékén, látványos, de nyáron forgalmas.", tip: "Rövid panorámaszünetnek jó, hosszabb programra csak akkor, ha bőven van idő." },
+  "Flam": { description: "Népszerű fjordfalu, hajók, szolgáltatások, étkezési és programlehetőségek központja.", tip: "Számíts turistaforgalomra; ha zsúfolt, kezeld praktikus megállóként, ne egész napos célként." },
+  "Flam EV Hub": { description: "Turistás térség töltőkkel és szolgáltatásokkal.", tip: "Főszezonban zsúfolt lehet, legyen alternatíva." },
+  "Aurland": { description: "Csendesebb fjordbázis Flam közelében, jó kiindulópont Aurlandsfjordhoz és Stegasteinhez.", tip: "Tartsátok rugalmasan: séta, fotó, étkezés vagy töltés is beleférhet." },
+  "Aurland EV Hub": { description: "Helyi töltési lehetőség Aurland környékén.", tip: "Ne erre legyen az egyetlen terv, ellenőrizzétek a foglaltságot." },
+  "Aurlandsfjord": { description: "Mélykék fjordág meredek hegyoldalakkal, Aurland és Flam környékének fő látványa.", tip: "A legjobb élmény gyakran egy nyugodt parti séta vagy kilátópont, nem a túlzsúfolt program." },
+  "Stegastein Viewpoint": { description: "Magasan az Aurlandsfjord felett futó kilátó, a környék egyik legerősebb panorámája.", tip: "Menjetek korán vagy későn, mert júliusban a parkolás és a tömeg könnyen időt visz el." },
+  "Undredal": { description: "Kis fjordfalu csendesebb hangulattal, jó opcionális kitérő.", tip: "Akkor válaszd, ha nem siettek és nem vállaltatok be már fjordhajózást vagy hosszabb programot." },
+  "Laerdalsoyri": { description: "A Sognefjord térségének praktikus átmeneti pontja, innen indul a Stryn felé vezető transzfer.", tip: "Indulás előtt legyen tiszta a komp- és töltési terv." },
+  "Otthon, Laerdalsoyri": { description: "Két éjszakás bázis Laerdalsoyriben, innen kényelmesen bejárható Aurland, Flam és Stegastein.", tip: "Önellátó szállásnál előre legyen bevásárlás; a kulcsszéf adatait mentsétek offline." },
+  "Fodnes Ferry": { description: "Kompátkelés a Laerdalsoyri - Sogndal - Stryn útvonalon.", tip: "A várakozást kalkuláld bele; ne az utolsó percre időzíts fontos programot utána." },
+  "Fodnes-Mannheller Ferry": { description: "Rövid, hasznos komp a Sognefjord térségében, Stryn felé menet.", tip: "Menetrendet indulás reggelén ellenőrizz, főleg ha sok megállót terveztek." },
+  "Sogndal": { description: "Jó szolgáltatási és töltési bázis a hosszabb transzfernapokon.", tip: "Ebéd, bevásárlás és fő EV-töltés szempontból az egyik legpraktikusabb megálló." },
+  "Sogndal EV Hub": { description: "Az egyik legjobb fő töltési pont transzfernapokra.", tip: "Ebéd és bolt mellé jól időzíthető." },
+  "Boyabreen Glacier Viewpoint": { description: "Könnyen elérhető gleccsernéző pont Fjaerland környékén.", tip: "Rövid, látványos megálló; ne csináljatok belőle hosszú túrát a transzfernapon." },
+  "Skei": { description: "Hasznos pihenő- és töltési pont Stryn és Sogndal között.", tip: "Jó hely rövid szünetre, mielőtt a hosszú visszaút sűrűbb részei jönnek." },
+  "Skei EV Hub": { description: "Hasznos tartalék töltési és pihenőpont.", tip: "A Stryn - Sogndal szakaszon adhat biztonsági tartalékot." },
+  "Stryn": { description: "Praktikus bázis település a Nordfjord környékén, szolgáltatásokkal.", tip: "Tankolás/töltés, bolt és időjárás-újratervezés miatt hasznos." },
+  "Stryn EV Hub": { description: "Praktikus töltőbázis a Nordfjord/Geiranger napokhoz.", tip: "Hosszú Geiranger-nap előtt különösen fontos." },
+  "Lodgen Stryn": { description: "Három éjszakás Stryn környéki bázis, a Lovatnet, Briksdal és Geiranger-opció kiindulópontja.", tip: "A reggelit és parkolást használjátok ki; hosszú nap előtt töltsetek és pakoljatok időben." },
+  "Loen": { description: "Látványos fjord- és hegyvidéki település Stryn közelében.", tip: "Jó időben erős panorámapontok vannak a környéken, rossz időben inkább alacsonyabb útvonalat válasszatok." },
+  "Loen EV Hub": { description: "Helyi töltési lehetőség Loen környékén.", tip: "Ne számítsatok egyetlen töltőre; legyen Stryn alternatíva." },
+  "Loen Skylift": { description: "Felvonó magas panorámára Loen felett.", tip: "Csak tiszta időben éri meg igazán; felhőben inkább Lovatnet vagy alacsonyabb scenic drive." },
+  "Lovatnet": { description: "Türkiz tó meredek hegyek között, az egyik legszebb, mégis alacsony stresszű program.", tip: "Ideális pihenősebb napra. Esőben is hangulatos, de óvatosan vezessetek a keskenyebb részeken." },
+  "Briksdal Glacier": { description: "Rövid túrával elérhető gleccserkörnyék, klasszikus Nordfjord-program.", tip: "Akkor legyen a nap fő aktív programja, ha az időjárás és az energiaszint is jó." },
+  "Olden": { description: "Fjordparti település Loen és Briksdal közelében, jó rövid átmeneti megálló.", tip: "Étkezésre vagy rövid sétára jó, de ne vigye el a gleccseres nap fókuszát." },
+  "Djupvatnet": { description: "Magashegyi tó Geiranger felé, gyors és látványos időjárásfüggő megálló.", tip: "Ha ködös vagy nagyon hideg-szeles, elég pár fotó, majd tovább." },
+  "Dalsnibba": { description: "Magashegyi, fizetős kilátóút Geiranger felett, tiszta időben nagyon erős panorámával.", tip: "Ködben, alacsony felhőben vagy szoros időterv mellett hagyjátok ki." },
+  "Geiranger": { description: "Ikonikus fjordfalu, nagyon látványos, de főszezonban zsúfolt.", tip: "Legyen rövid falumegálló; a fő érték a kilátópontok és a Geiranger - Hellesylt komp." },
+  "Geiranger EV Hub": { description: "Kis falusi/turisztikai töltési lehetőség.", tip: "Backupként kezeld, ne fő töltési tervként." },
+  "Flydalsjuvet": { description: "Klasszikus Geiranger-kilátópont, rövid megállóval nagy látvánnyal.", tip: "Jó fotópont, de parkolásra és buszokra számítsatok júliusban." },
+  "Geiranger Ferry Pier": { description: "A Geiranger - Hellesylt fjordkomp indulási pontja.", tip: "Júliusban érdemes előre foglalni, és legalább 30 perccel indulás előtt ott lenni." },
+  "Geiranger-Hellesylt Ferry": { description: "Kb. 65 perces fjordkomp, önmagában is látványprogram.", tip: "A járműves helyet ellenőrizzétek előre; rossz időben is szép, de késésre legyen tartalék." },
+  "Geiranger-Hellesylt Ferry Start": { description: "A Geiranger - Hellesylt fjordkomp indulási pontja.", tip: "Júliusban érdemes előre foglalni, és legalább 30 perccel indulás előtt ott lenni." },
+  "Hellesylt": { description: "A Geiranger-komp érkezési oldala, innen Stryn felé lehet visszafordulni.", tip: "Érkezés után ne tervezzetek túl sok plusz megállót, ez már hosszú nap." },
+  "Hellesylt Ferry Arrival": { description: "A Geiranger-komp érkezési oldala, innen Stryn felé lehet visszafordulni.", tip: "Érkezés után ne tervezzetek túl sok plusz megállót, ez már hosszú nap." },
+  "Hella Ferry Pier": { description: "A Hella - Vangsnes komp indulási oldala a scenic Vikafjell visszaúton.", tip: "A komp miatt a nap tempója kevésbé kiszámítható; legyen víz, snack és töltött telefon." },
+  "Hella-Vangsnes Ferry": { description: "Rövid kompátkelés, amely változatosabbá teszi a visszautat Vik és Vikafjell felé.", tip: "Csak akkor válasszátok, ha az időjárás és az útviszonyok jók a hegyi szakaszhoz." },
+  "Vangsnes Ferry Pier": { description: "A Hella - Vangsnes komp érkezési oldala, innen Vik felé vezet az út.", tip: "Érkezés után ellenőrizzétek újra a Vikafjell időjárását, ha bizonytalan." },
+  "Vangsnes Ferry Arrival": { description: "A Hella - Vangsnes komp érkezési oldala, innen Vik felé vezet az út.", tip: "Érkezés után ellenőrizzétek újra a Vikafjell időjárását, ha bizonytalan." },
+  "Vik i Sogn": { description: "Kis település a scenic visszaúton, rövid pihenőre alkalmas.", tip: "Tartsátok röviden, mert a nap vége Vaksdalig még hosszú." },
+  "Vik EV Hub": { description: "Tartalék töltési pont a scenic visszaúton.", tip: "A fő töltést inkább Sogndalban vagy Vossban tervezzétek." },
+  "Hopperstad Stave Church": { description: "Történelmi fatemplom Vik környékén, opcionális kulturális megálló.", tip: "Csak akkor férjen bele, ha a visszaút nincs késésben." },
+  "Vikafjellsvegen (Rv13) / Vikafjellet": { description: "Látványos hegyi útvonal Vik és Voss között, jó időben emlékezetes.", tip: "Rossz látási viszonyoknál, erős esőnél vagy fáradtságnál váltsatok az E39 backup útvonalra." },
+  "Vikafjellet scenic road": { description: "Látványos hegyi útvonal Vik és Voss között, jó időben emlékezetes.", tip: "Rossz látási viszonyoknál, erős esőnél vagy fáradtságnál váltsatok az E39 backup útvonalra." },
+  "Forde": { description: "Praktikus szolgáltatási megálló az E39 backup útvonalon.", tip: "Használjátok töltésre vagy ebédre, ha a Vikafjell helyett biztonságosabb útvonal kell." },
+  "Lavik Ferry Pier": { description: "Az E39 backup útvonal kompindulási pontja Laviknál.", tip: "Menetrend és várakozás miatt legyen tartalék a napi tervben." },
+  "Lavik-Oppedal Ferry": { description: "Backup komp az E39-es, kevésbé hegyi visszaúton.", tip: "Jó választás, ha a scenic hegyi út rossz időben kockázatos lenne." },
+  "Oppedal Ferry Pier": { description: "Az E39 backup komp érkezési oldala Bergen/Vaksdal felé.", tip: "Innen még számoljatok vezetéssel; ne hagyjátok túl későre a nap végét." },
+  "Oppedal Ferry Arrival": { description: "Az E39 backup komp érkezési oldala Bergen/Vaksdal felé.", tip: "Innen még számoljatok vezetéssel; ne hagyjátok túl későre a nap végét." },
+  "Vaksdal": { description: "Utolsó éjszakai szállás Bergen közelében, kényelmesebb repülőtéri visszatéréshez.", tip: "Este készítsétek elő a csomagokat és az autó leadási/töltési tervét." },
+  "Otthon, Vaksdal kommune": { description: "Utolsó éjszakai szállás Bergen közelében, kényelmesebb repülőtéri visszatéréshez.", tip: "Este készítsétek elő a csomagokat és az autó leadási/töltési tervét." },
+};
+
 const COLORS = {
   arrival: "#1f6fb2",
   city: "#455a64",
@@ -685,6 +748,13 @@ function renderDayDetail() {
     });
   });
   displayedStops.forEach((stop, index) => {
+    const details = stopDetailsFor(stop);
+    const detailsHtml = details ? `
+      <div class="stop-details-hu">
+        <p>${escapeHtml(details.description)}</p>
+        <p><span>Tipp:</span> ${escapeHtml(details.tip)}</p>
+      </div>
+    ` : "";
     const row = document.createElement("div");
     row.className = `stop-row${state.editMode ? "" : " read-only-stop"}`;
     row.style.borderLeftColor = colorForStop(stop);
@@ -692,6 +762,7 @@ function renderDayDetail() {
       <div class="stop-main">
         <strong>${index + 1}. ${escapeHtml(stop.name)}</strong>
         <p class="stop-note">${escapeHtml(stop.type)} / ${escapeHtml(stop.note)}</p>
+        ${detailsHtml}
       </div>
       ${state.editMode && !alternative ? `
         <div class="stop-actions">
@@ -908,6 +979,14 @@ function colorForStop(stop) {
 function colorForDay(dayId) {
   const palette = ["#0b6b63", "#1f6fb2", "#ba3f2f", "#7a5aa6", "#27864f", "#a86d16"];
   return palette[Math.abs(dayId) % palette.length];
+}
+
+function stopDetailsFor(stop) {
+  if (!stop?.name) return null;
+  if (STOP_DETAILS_HU[stop.name]) return STOP_DETAILS_HU[stop.name];
+  const normalizedName = stop.name.toLowerCase();
+  const match = Object.entries(STOP_DETAILS_HU).find(([name]) => name.toLowerCase() === normalizedName);
+  return match ? match[1] : null;
 }
 
 function createMap(root) {

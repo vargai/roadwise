@@ -1,5 +1,5 @@
-Name,Address,Priority
-Stegastein,"Stegastein Viewpoint, Norway",Must
-Flam,"Flam, Norway",Must
-Undredal,"Undredal, Norway",Optional
-Gudvangen,"Gudvangen, Norway",Optional
+﻿Name,Address,Priority,Description_HU,Tip_HU
+Stegastein,"Stegastein Viewpoint, Norway",Must,"Magasan az Aurlandsfjord felett futó kilátó, a környék egyik legerősebb panorámája.","Menjetek korán vagy későn, mert júliusban a parkolás és a tömeg könnyen időt visz el."
+Flam,"Flam, Norway",Must,"Népszerű fjordfalu, hajók, szolgáltatások, étkezési és programlehetőségek központja.","Számíts turistaforgalomra; ha zsúfolt, kezeld praktikus megállóként, ne egész napos célként."
+Undredal,"Undredal, Norway",Optional,"Kis fjordfalu csendesebb hangulattal, jó opcionális kitérő.","Akkor válaszd, ha nem siettek és nem vállaltatok be már fjordhajózást vagy hosszabb programot."
+Gudvangen,"Gudvangen, Norway",Optional,"Fjordparti település a Naeroyfjord környékén, látványos, de nyáron forgalmas.","Rövid panorámaszünetnek jó, hosszabb programra csak akkor, ha bőven van idő."
