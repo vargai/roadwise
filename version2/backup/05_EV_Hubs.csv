@@ -1,0 +1,10 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+EV Hubs,All,1,Bergen EV Hub,"Bergen, Norway",EV / Services,Recommended,,,Start full before leaving Bergen.
+EV Hubs,Day 1 or 7,2,Voss EV Hub,"Voss, Norway",EV / Services,Recommended,,,Useful stop both outbound and before airport return.
+EV Hubs,Day 1-2,3,Aurland EV Hub,"Aurland, Norway",EV / Services,Useful,,,Check charger availability near lodging.
+EV Hubs,Day 1-2,4,Flam EV Hub,"Flam, Norway",EV / Services,Useful,,,Popular tourist area; chargers may be busy in July.
+EV Hubs,Day 3 or 6,5,Sogndal EV Hub,"Sogndal, Norway",EV / Services,Recommended,,,"Good services, groceries and charging on transfer days."
+EV Hubs,Day 3 or 6,6,Skei EV Hub,"Skei, Norway",EV / Services,Useful,,,Useful before/after Nordfjord area.
+EV Hubs,Day 3-6,7,Stryn EV Hub,"Stryn, Norway",EV / Services,Recommended,,,Best practical charging/grocery base for Geiranger day.
+EV Hubs,Day 3-6,8,Loen EV Hub,"Loen, Norway",EV / Services,Useful,,,Check charger availability; avoid relying on one charger only.
+EV Hubs,Day 5,9,Geiranger EV Hub,"Geiranger, Norway",EV / Services,Backup only,,,Small tourist village; do not make this your only planned charge in July.

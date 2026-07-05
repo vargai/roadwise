@@ -1,0 +1,7 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Route Day 3,Day 3,1,Aurland / Flam Base,"Aurland, Norway",Departure,Must,0,Start,Start reasonably early.
+Route Day 3,Day 3,2,Laerdal,"Laerdal, Norway",Route Point,Recommended,35-50,Tunnel route is easier; Snow Road is scenic but slower,Choose tunnel if tired or weather is poor.
+Route Day 3,Day 3,3,Fodnes Ferry,"Fodnes ferjekai, Norway",Ferry,Recommended,75-95,Short crossing + wait,Route toward Sogndal.
+Route Day 3,Day 3,4,Sogndal,"Sogndal, Norway",EV / Grocery Stop,Recommended,105-130,Useful break,Good charge and grocery stop.
+Route Day 3,Day 3,5,Boyabreen Glacier Viewpoint,"Boyabreen Glacier, Fjaerland, Norway",Optional Viewpoint,Optional,160-190,15-30 min,Easy short stop only.
+Route Day 3,Day 3,6,Loen / Olden / Stryn Base,"Loen, Norway",Accommodation Area,Must,270-330,5.5-6.5 hr driving/ferry plus breaks,Night 3-5 base.

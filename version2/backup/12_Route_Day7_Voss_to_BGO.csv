@@ -1,0 +1,3 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Route Day 7 Airport,Day 7,1,Voss Base,"Voss, Norway",Departure,Recommended,0,Depart 07:30-08:00 if due at airport by noon,Morning buffer day.
+Route Day 7 Airport,Day 7,2,Bergen Airport,"Bergen Airport, Flesland, Bergen, Norway",Finish / Airport,Must,105-120,"1.5-2 hr driving, plan 2.5-3 hr with car return",Return EV according to rental charge requirement.

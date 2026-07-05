@@ -1,0 +1,9 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Route Day 5 Optional Geiranger,Day 5,1,Loen / Olden / Stryn Base,"Loen, Norway",Departure,Must if doing Geiranger,0,Start early,Charge before leaving.
+Route Day 5 Optional Geiranger,Day 5,2,Djupvatnet,"Djupvatnet, Norway",Optional Stop,Optional,80-110,10-20 min stop,Weather-dependent quick scenic stop.
+Route Day 5 Optional Geiranger,Day 5,3,Dalsnibba,"Dalsnibba, Norway",Viewpoint / Toll Road,Weather dependent,Extra detour,+60-90 min,Skip in fog or low cloud.
+Route Day 5 Optional Geiranger,Day 5,4,Flydalsjuvet,"Flydalsjuvet, Geiranger, Norway",Viewpoint,Must if doing Geiranger,120-150,20-30 min,Classic viewpoint.
+Route Day 5 Optional Geiranger,Day 5,5,Geiranger,"Geiranger, Norway",Fjord Village,Must if doing Geiranger,125-160,30-60 min,Keep village time short in July.
+Route Day 5 Optional Geiranger,Day 5,6,Geiranger Ferry Pier,"Geiranger ferjekai, Norway",Ferry Start,Must if doing Geiranger,,Arrive 30 min before ferry,Prebook in July.
+Route Day 5 Optional Geiranger,Day 5,7,Hellesylt Ferry Pier,"Hellesylt ferjekai, Norway",Ferry Arrival,Must if doing Geiranger,,65 min ferry,Continue back toward Loen/Stryn.
+Route Day 5 Optional Geiranger,Day 5,8,Loen / Olden / Stryn Base Return,"Loen, Norway",Return,Must if doing Geiranger,220-280 total day,5-6 hr driving + 65 min ferry + stops,Longest sightseeing day.

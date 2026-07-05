@@ -1,0 +1,10 @@
+Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,1,Lodgen Stryn,"27 Perhusvegen, 6783 Stryn, Norway",Departure,Must,0,Start,Main return day toward confirmed final night in Vaksdal.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,2,Skei,"Skei, Norway",Route Stop / EV,Recommended,90-120,Break if needed,Useful break/EV option.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,3,Sogndal,"Sogndal, Norway",EV / Grocery Stop,Recommended,160-200,Charge/lunch break,Recommended main charge before Sognefjord/Vikafjell return.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,4,Hella Ferry Pier,"Hella ferjekai, Norway",Ferry Start,Recommended,175-220,Short crossing + wait,Take ferry to Vangsnes for a different return route.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,5,Vangsnes Ferry Pier,"Vangsnes ferjekai, Norway",Ferry Arrival,Recommended,,Continue toward Vik,Arrival side of the Hella-Vangsnes ferry.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,6,Vik i Sogn,"Vik i Sogn, Norway",Village / Short Stop,Optional,210-255,20-45 min if stopping,Optional short stop; skip if running late.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,7,Vikafjellsvegen (Rv13) / Vikafjellet,"60.792458870095, 6.508532291522",Scenic Mountain Road,Recommended,230-280,Scenic Rv13 section; weather dependent,Use in good weather; skip for E39 backup if weather/road conditions are poor.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,8,Voss,"Voss, Norway",Route Stop / EV,Recommended,300-340,Break/charge if needed,Last practical stop before Vaksdal.
+Route Day 7 Stryn to Vaksdal via Vikafjell,Day 7,9,"Otthon, Vaksdal kommune","Tveitane 43, Vaksdal kommune, Vestland 5725, Norway",Accommodation,Must,350-400,7-8.5 hr with ferry/charging/stops,Confirmed Night 7; final night before airport.

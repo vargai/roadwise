@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roadwise AI Trip Planner</title>
+    <link rel="stylesheet" href="./styles.css?v=planfix-3" />
+  </head>
+  <body>
+    <main id="appShell" class="app-shell">
+      <aside class="planner-panel">
+        <header class="brand">
+          <div>
+            <p class="eyebrow">Roadwise AI</p>
+            <h1>Road trip planner</h1>
+          </div>
+          <button id="fitMapButton" class="icon-button" type="button" title="Fit route" aria-label="Fit route">[]</button>
+        </header>
+
+        <section class="prompt-box">
+          <label for="tripPrompt">
+            <span>Plan with a prompt</span>
+          </label>
+          <textarea id="tripPrompt" rows="7">Plan a 7 day Norway road trip from Bergen to Bergen with fjords, waterfalls, scenic roads, easy hikes, EV charging, and no more than 4 hours driving per day.</textarea>
+          <div class="prompt-actions">
+            <button id="generateButton" class="primary-button" type="button">Generate trip</button>
+            <button id="sampleButton" class="quiet-button" type="button">Try sample</button>
+          </div>
+        </section>
+
+        <section class="chat-box" aria-label="Trip adjustment chat">
+          <div id="chatLog" class="chat-log"></div>
+          <form id="adjustForm" class="adjust-form">
+            <input id="adjustInput" type="text" placeholder="Make day 3 easier, add a waterfall, avoid ferries..." autocomplete="off" />
+            <button class="icon-button" type="submit" title="Send adjustment" aria-label="Send adjustment">&gt;</button>
+          </form>
+        </section>
+
+        <section class="controls">
+          <label>
+            <span>Day</span>
+            <select id="daySelect"></select>
+          </label>
+          <div class="toggle-row">
+            <label><input id="routeToggle" type="checkbox" checked /> Route</label>
+            <label><input id="labelsToggle" type="checkbox" checked /> Labels</label>
+            <label><input id="driveModeToggle" type="checkbox" /> Drive mode</label>
+          </div>
+        </section>
+      </aside>
+
+      <section class="review-panel">
+        <div class="trip-summary">
+          <div>
+            <p class="eyebrow">Current itinerary</p>
+            <h2 id="tripTitle">Norway fjord loop</h2>
+          </div>
+          <div class="trip-actions">
+            <div id="tripScore" class="route-score">Balanced</div>
+            <button id="editModeButton" class="quiet-button" type="button">Edit trip</button>
+          </div>
+        </div>
+
+        <section class="stats" aria-live="polite">
+          <div><strong id="dayCount">0</strong><span>days</span></div>
+          <div><strong id="stopCount">0</strong><span>stops</span></div>
+          <div><strong id="driveCount">0h</strong><span>avg drive</span></div>
+        </section>
+
+        <nav id="dayTabs" class="day-tabs" aria-label="Itinerary days"></nav>
+        <section id="backupRouteBar" class="backup-route-bar" hidden></section>
+
+        <section id="driveMode" class="drive-mode" hidden>
+          <div>
+            <span>Next stop</span>
+            <strong id="nextStopName">Choose a day</strong>
+          </div>
+          <button id="skipNextButton" class="quiet-button" type="button">Skip</button>
+          <button id="replanTodayButton" class="primary-button" type="button">Replan today</button>
+        </section>
+
+        <section id="dayDetail" class="day-detail"></section>
+      </section>
+
+      <section class="map-wrap" aria-label="Route map">
+        <div id="map"></div>
+        <div id="mapStatus" class="map-status">0 points</div>
+        <div id="toast" class="toast" hidden></div>
+      </section>
+    </main>
+    <script src="./app.js?v=planfix-3"></script>
+  </body>
+</html>
+
+
+
+

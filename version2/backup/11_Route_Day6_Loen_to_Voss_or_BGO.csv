@@ -1,0 +1,6 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Route Day 6 Return,Day 6,1,Loen / Olden / Stryn Base,"Loen, Norway",Departure,Must,0,Start,Return day toward airport.
+Route Day 6 Return,Day 6,2,Skei,"Skei, Norway",Route Stop,Recommended,90-120,Break if needed,Useful break/EV option.
+Route Day 6 Return,Day 6,3,Sogndal,"Sogndal, Norway",EV / Grocery Stop,Recommended,160-200,Charge/lunch break,Good practical stop before continuing to Voss/Bergen.
+Route Day 6 Return,Day 6,4,Voss Base,"Voss, Norway",Accommodation Option,Recommended,280-330,5.5-6.5 hr driving/ferry plus breaks,Good if you only need to be at BGO by noon next day.
+Route Day 6 Return,Day 6,5,Bergen Airport Base,"Bergen Airport, Flesland, Bergen, Norway",Accommodation Option,Safest,385-450,"Longer Day 6, easiest Day 7",Choose if flight itself departs around noon.

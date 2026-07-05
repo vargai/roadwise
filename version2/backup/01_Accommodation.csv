@@ -1,0 +1,10 @@
+﻿Layer,Day,Order,Name,Address,Type,Priority,Approx_Km,Approx_Time,Notes
+Accommodation,Night 1-2,1,Aurland Base,"Aurland, Norway",Accommodation,Recommended,,2 nights,"Preferred quieter base for Stegastein, Aurlandsfjord and Flam area."
+Accommodation,Night 1-2,2,Flam Base,"Flam, Norway",Accommodation,Alternative,,2 nights,More services but busier and often pricier in July.
+Accommodation,Night 1-2,3,Gudvangen Base,"Gudvangen, Norway",Accommodation,Alternative,,2 nights,Good for Naeroyfjord access if Aurland/Flam are full.
+Accommodation,Night 3-5,4,Loen Base,"Loen, Norway",Accommodation,Recommended,,3 nights,"Best scenic base for Lovatnet, Loen Skylift and Olden."
+Accommodation,Night 3-5,5,Olden Base,"Olden, Norway",Accommodation,Recommended,,3 nights,Excellent for Briksdal Glacier and Oldedalen.
+Accommodation,Night 3-5,6,Stryn Base,"Stryn, Norway",Accommodation,Alternative,,3 nights,"Practical town base for groceries, EV charging and Geiranger day."
+Accommodation,Night 6,7,Voss Base,"Voss, Norway",Accommodation,Recommended,,1 night,Good compromise before a noon Bergen Airport arrival; around 1.5-2 hours to BGO.
+Accommodation,Night 6,8,Bergen Airport Base,"Bergen Airport, Flesland, Bergen, Norway",Accommodation,Safest,,1 night,Safest if the flight itself departs around noon or you want no morning stress.
+Accommodation,Night 6,9,Bergen Base,"Bergen, Norway",Accommodation,Alternative,,1 night,Good if you want one last evening in Bergen; airport transfer is longer than Flesland hotels.
